@@ -36,7 +36,9 @@
 		<input type="submit" value="Translate"/>
 	</form>
 
-	<h3><?= $word ?> => <?= $number ?></h3>
+	<?php if ($word) { ?>
+		<h3><?= $word ?> => <?= $number ?></h3>
+	<?php } ?>
 
 	</body>
 </html>
