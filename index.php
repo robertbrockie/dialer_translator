@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="header">
 				<div class="header_text">Dialpad Translator
-					<span class="help">[?]<div class="help_box">Type a word in the box below and the word will be translated into numbers corresponding telephone numbers. Pretty friggin' simple.</div>
+					<span class="help">[?]<div class="help_box">Type a word in the box below and the word will be translated into corresponding telephone numbers. Pretty simple!</div>
 					</span>
 				</div>
 			</div>
