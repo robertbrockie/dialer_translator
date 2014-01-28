@@ -15,24 +15,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset='utf-8'>
 		<title>Dialpad Translator</title>
+
+		<meta charset='utf-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
+
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-	  		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
 	</head>
 	<body>
-
 		<div class="container">
-			<h1>Dialpad Translator</h1>
+			<div class="header">
+				<div class="header_text">Dialpad Translator
+					<span class="help">[?]<div class="help_box">Type a word in the box below and the word will be translated into numbers corresponding telephone numbers. Pretty friggin' simple.</div>
+					</span>
+				</div>
+			</div>
 
 			<form action="index.php" method="post">
 				<p><input class="form-control" type="text" name="word" value="<?= $word ?>" /></p>
@@ -44,6 +42,11 @@
 					<span><?= $number ?></span>
 				</div>
 			<?php } ?>
+		</div>
+
+		<div class="footer">
+			<hr/>
+			<p>a <a href="http://www.robertbrockie.com">robert brockie</a> production...</p>
 		</div>
 	</body>
 </html>
